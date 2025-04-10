@@ -1,9 +1,11 @@
 import { Header, Footer } from "./components";
+import { AllRoutes } from "./routes/AllRoutes";
+import "./App.css";
 function App() {
   return (
     <div className="App">
       <Header />
-      <h1>Hello world!</h1>
+      <AllRoutes />
       <Footer />
     </div>
   );
